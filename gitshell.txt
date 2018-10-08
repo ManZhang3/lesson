@@ -1,0 +1,7 @@
+1.进入要上传的文件目录内，右键Git Bash Here，打开git bash命令工具
+2.git add .  （添加当前目录下的所有文件到github上）   （如果报错用git init  加一个.git文件夹）
+   git add hello.txt (添加当前目录下的文件到github上）
+   git add 文件夹名称
+3.git commit -m "first commit"  找到即将要上传的文件明细
+4.git remote add origin https://github.com/ManZhang3/lesson.git（上传到github上指定仓库的HTTPS的链接）
+5.git push -u origin master  （提交）  （git pull --rebase origin master 同步）
